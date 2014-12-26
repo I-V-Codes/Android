@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayoutPark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffb732"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ege493.sunynp.hawksnest2014.ChoosePDorm$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/textViewPName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/choose_pdorm"
+        android:textColor="#19198c"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textViewPDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/choose_pdorm_desc"
+        android:textColor="#19198c" />
+
+    <GridLayout
+        android:id="@+id/gridViewP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:useDefaultMargins="true" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_gravity="left"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="#19198c"
+            android:text="@string/bliss"
+            android:textColor="#ffb732" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="#19198c"
+            android:text="@string/bouton"
+            android:textColor="#ffb732" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_gravity="left"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="#19198c"
+            android:text="@string/capen"
+            android:textColor="#ffb732" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="fill_parent"
+            android:layout_gravity="left"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="#19198c"
+            android:text="@string/gage"
+            android:textColor="#ffb732" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="fill_parent"
+            android:layout_gravity="left"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="#19198c"
+            android:text="@string/scudder"
+            android:textColor="#ffb732" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="fill_parent"
+            android:layout_gravity="left"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:background="#19198c"
+            android:text="@string/collango"
+            android:textColor="#ffb732" />
+
+    </GridLayout>
+
+</LinearLayout>

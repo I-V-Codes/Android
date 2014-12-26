@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HawksNest2014</string>
+    
+    <string name="complex">Pick a Complex</string>
+    <string name="dorm">Pick a Residence Hall</string>
+    
+    <string name="hasbrouck">Hasbrouck Complex</string>
+    <string name="parker">Parker Complex</string>
+    <string name="south">South Complex</string>
+    
+    <string name="bevier">Bevier</string>
+    <string name="bliss">Bliss</string>
+    <string name="bouton">Bouton</string>
+    <string name="capen">Capen</string>
+    <string name="collango">College/Shango</string>
+    <string name="crispell">Crispell</string>
+    <string name="deyo">Deyo</string>
+    <string name="dubois">DuBois</string>
+    <string name="esopus">Esopus</string>
+    <string name="gage">Gage</string>
+    <string name="lefevre">Lefevre</string>
+    <string name="lenape">Lenape</string>
+    <string name="scudder">Scudder</string>
+    
+    <string name="ra_list">RAs</string>
+    <string name="dorm_events">Events</string>
+    <string name="dorm_hours">RA Hours</string>
+    
+    <string name="action_settings">Settings</string>
+
+</resources>
